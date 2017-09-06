@@ -1,3 +1,6 @@
+$(document).ready(function(){
+
+
 var crystalValue = 0;
 var counter = 0;
 var randNum = 0;
@@ -113,4 +116,8 @@ $(".button").on("click", function() {
 
 
   });
+
+
 }
+
+});
