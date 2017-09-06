@@ -1,0 +1,301 @@
+body, html {
+	margin:0%;
+	padding: 0%;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	background-image: url("../images/pattern_texture1163.jpg");
+	background-size: 100%;
+
+
+}
+
+div {
+	/*border: solid 1px red;*/
+}
+
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+
+
+.container {
+	width:960px;
+	text-align:center;
+	margin:0 auto;
+	border-left:double 10px white;
+	border-right:double 10px white;
+	border-bottom:double 10px white;
+	box-shadow: 0px 0px 60px #031217;
+}
+
+
+#holder {
+	background-color:#90bdcc;
+	border:solid 1px white;
+	width: 100%;
+	background: rgba(144, 189, 204, 0.8);
+	text-align:center;
+	padding: 0% 2% 4% 2%;
+	overflow:auto;
+	margin:0 auto;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    width: 88%;
+    height: auto;
+    margin:0 auto;
+    margin-top:2%;
+}
+
+
+.col {
+  flex: 1; 
+  padding:0% 1% 1% 1%;
+  color: white;
+/*  border-left: solid 1px white;*/
+ 
+}
+
+#left-column {
+	padding:2% 2% 0% 0%;
+
+}
+
+#right-column {
+	border-left: solid 1px white;
+	padding: 0% 0% 0% 3%;
+
+}
+
+#buttons {
+   
+  }
+
+
+
+.roll{
+	margin-left:1%;
+}
+
+#buttons ul li {
+  	display:inline;
+  	float:left;
+  	margin-left:1%;
+  	margin: 4% 0% 4% 1%;
+  }
+
+.leftBorder {
+	border-left: dotted 2px white;
+	
+}
+ 
+.forButtons {
+ 	width: 100%;
+ 	margin-top: 3%;
+ }
+
+
+/* STYLES FOR CRYSTALS */
+.imgContainer {
+	margin-top:3%;
+	height:118px;
+	width:80px;
+	margin-left:1%;
+	overflow:hidden;
+	border: none;
+	background-image: url("../images/gem-buttons.png");
+	background-color: rgba(118, 158, 171, 0.1);
+	border:none;
+	outline:none;
+}
+
+
+.imgContainer:hover {
+	background-position-y: -118px;
+    cursor:pointer;
+}
+
+
+.imgContainer:active {
+	background-position-y: -236px;
+    cursor:pointer;
+}
+
+
+#button1 {
+	background-position-x: 0px;
+	width:76px;
+}
+
+#button2 {
+	background-position-x: -80px;
+	width:76px;
+}
+#button3 {
+	background-position-x: -160px;
+	width:100px;
+}
+
+#button4 {
+	background-position-x: -268px;
+	width:100px;	
+}
+
+
+/*. SCORE CONTAINER.   */
+
+#scoreContainer {
+	width:auto;
+	margin:0 auto;
+	padding-top:3%;
+}
+
+
+
+
+#randomNumber, #totalScore{
+	width:48%;
+	margin: 1% 1%;	
+	padding: 15px 0px 15px 0px;
+	float:left;
+
+	text-align:center;	
+	font-family: 'Dosis', sans-serif;
+	font-size:75px;
+
+}
+
+
+.losses {
+  	margin:2% 0%;
+  	text-align:center;
+  	padding:2%;
+  	width:50%;
+  	float:left; 
+  	font-family: 'Quicksand', sans-serif;
+  	text-transform: uppercase;
+  	font-size:20px;
+  	 }
+
+.wins {
+  	margin:2% 0%;
+  	text-align:center;
+  	padding:2%;
+  	width:50%;
+  	float:left; 
+  	font-family: 'Quicksand', sans-serif;
+  	text-transform: uppercase;
+  	font-size:20px;
+  	 }
+
+ #crystalContainer {
+ 	padding:3% 0%;
+ }
+
+/*#currentScore{
+	margin-top: 10px;
+	font-size:40px;
+	padding: 20px 0px 20px 0px;
+	text-align:center;
+	float:left;
+	
+}*/
+
+/*-------  TAGS -----------*/
+
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 100px;
+
+	width:100%;
+	padding:20px 0px 10px 0px;
+	/*margin-bottom:5px;*/
+	color:white;
+	text-align:center;
+	/*margin:0% 0% 1% 0%;*/
+	text-transform:capitalize;
+
+}
+
+
+hr {
+	margin:2% 0%;
+	width:90%;
+	border: 0;
+	  border-top: 1px solid white;
+	  border-bottom: 0px;
+	  text-align: center;
+	  margin: 0 auto;
+	  margin-top:0px;
+}
+
+
+p  {
+	color:white;
+	font-size: 16px;
+	line-height:1.25;
+	margin-bottom:6%;
+	text-align: left;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+
+#scoreHeader {
+	width:40%;
+	float:left;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size:16px;
+}
+
+#scoreHeader2 {
+	width:40%;
+	float:left;
+	margin-left: 5%;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size:16px;
+
+}
+
+
+.instructions {
+	color:white;
+	font-size: 18px;
+	line-height:1.25;
+	margin-top:10px;
+	text-align: left;
+
+}
+
+
+ .crystal {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+
+
+
+
+  footer.clear {
+	color:#777;
+	margin:10px;
+	background-color:#ebebeb;
+	text-align: center;
+	position: relative;
+	padding: 30px 0px;
+}

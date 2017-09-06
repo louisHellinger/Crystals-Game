@@ -2,9 +2,94 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>GEMS GAME</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Dosis:800|Quicksand" rel="stylesheet">
+
+
+<title>crystals game</title>
 </head>
 <body>
-	
+
+<div class="container" id="">
+
+
+
+<div id="holder"> 
+
+	<h1>Crystals Collector</h1>
+
+	<hr>
+<section class="row">
+
+	<div id="left-column" class="col instructions">
+			
+			<p>You will be given a random number.</p>
+
+			<p>There are 4 crystals below. By clicking on the crystal you will add a specific amount of points to your total score. </p>
+
+			<p>You win the game by matching your total score the random number, you lose the game if your total score goes above the random bnumber. </p>
+
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+			
+			</div>
+
+	<div id="right-column" class="col">		
+		<div id="scoreContainer">
+		<div> 
+				<div id="scoreHeader" class=".scoreContainerHeader">Random Number
+				</div>
+
+				<div  id="scoreHeader2" class=".scoreContainerHeader">Total Score:</div>
+				</div>
+
+
+				<div id="randomNumber">				
+				RND#
+				</div>		
+
+
+				<div  id="totalScore" class="leftBorder">
+				##
+				</div>
+
+		</div>
+		<div style="clear: both;"> </div>
+		<hr class="forButtons">
+		<div id="crystalContainer">
+			
+			<div id="buttons">
+			
+			</div>
+		</div>
+		<hr class="forButtons">
+
+		<div class="wins">
+			Wins: 0
+		</div>
+
+		<div class="losses">
+			Losses: 0
+		</div>
+
+	</div>
+
+</section>
+</div>
+
+</div>
+
+
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="assets/javascript/game.js"></script>
+</script>
 </body>
 </html>
