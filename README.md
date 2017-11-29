@@ -12,7 +12,7 @@ If the user score exceeds the Random Number the User loses.
 When the game resets, a new random number is chosen and then value of each crystal changes.
 
 ## App Link
-[Crystals Collector] (https://louishellinger.github.io/Crystals-Game/)
+[Crystals Collector](https://louishellinger.github.io/Crystals-Game/)
 
 # Demo
 
