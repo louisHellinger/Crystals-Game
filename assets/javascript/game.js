@@ -48,7 +48,7 @@ function crystalSelector(){
 
  var outArray = [];
 
- console.log("this is the crystals array: " +crystals);
+ console.log("this is the crystals array: " + crystals);
 
 for(var i=0; i<4; i++) {
     outArray.push(crystals.splice(Math.floor(Math.random()*crystals.length), 1)[0]);
