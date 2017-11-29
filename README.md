@@ -14,9 +14,13 @@ When the game resets, a new random number is chosen and then value of each cryst
 ## App Link
 [Crystals Collector](https://louishellinger.github.io/Crystals-Game/)
 
+
+
 # Demo
 
 ![Sample Game](assets/readmeImages/sampleGame.gif)
+
+![Sample Game](readmeImages/sampleGame.gif)
 
 ## Languages/Resources Used
 - HTML
